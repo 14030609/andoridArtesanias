@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:id="@+id/txtMetodosPagoName"
+        android:hint="Name"
+        android:text="My product "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtMetodosPagoType"
+        android:hint="Type"
+        android:text="simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtMetodosPagoName"/>
+
+    <EditText
+        android:id="@+id/txtMetodosPagoDescripcion"
+        android:hint="Regular Price"
+        android:text="898"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/txtMetodosPagoType"/>
+
+
+
+</android.support.constraint.ConstraintLayout>
